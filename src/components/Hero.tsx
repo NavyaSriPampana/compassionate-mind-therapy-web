@@ -7,10 +7,18 @@ const Hero = () => {
   };
 
   return (
-    <section
-      id="hero"
-      className="relative bg-[url('https://t4.ftcdn.net/jpg/03/07/81/45/360_F_307814520_MK8g2ZCepEWfMFoQAfudmOR7nhP8ChwP.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center overflow-hidden pt-16"
-    >
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+
+      {/* Background video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        src="/videos/oceans.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
