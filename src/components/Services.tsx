@@ -2,21 +2,24 @@
 const Services = () => {
   const services = [
     {
-      title: "Anxiety & Stress Management",
-      description: "Evidence-based techniques to help you manage anxiety, reduce stress, and develop healthy coping mechanisms for daily challenges.",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=400&h=300&fit=crop",
-      price: "$200 / session"
+      
+  title: "Anxiety & Stress Management",
+  description: "Evidence-based techniques to help you manage anxiety, reduce stress, and develop healthy coping mechanisms for daily challenges.",
+  image: "https://www.olympiabenefits.com/hubfs/Stress%20Management%20Resource%20List.png",
+  price: "$200 / session"
+
+
     },
     {
       title: "Relationship Counseling",
       description: "Strengthen communication, rebuild trust, and develop deeper connections in your personal relationships through proven therapeutic approaches.",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+      image: "https://ggie.berkeley.edu/wp-content/uploads/2019/04/School-Relationships_1410x820-705x410.jpg",
       price: "$240 / couples session"
     },
     {
       title: "Trauma Recovery",
       description: "Compassionate, specialized care to help you process traumatic experiences and develop resilience for healing and growth.",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
+      image: "https://images.squarespace-cdn.com/content/v1/616d95d51579966f3cdffb31/1659124726815-0C5P503JUBEN822VQ8ND/unsplash-image-Ya_UycADp28.jpg",
       price: "$200 / session"
     }
   ];

@@ -1,4 +1,3 @@
-
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const FAQ = () => {
@@ -30,7 +29,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-blue-50/30">
+    <section id="faq" className="py-20 bg-blue-100">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
