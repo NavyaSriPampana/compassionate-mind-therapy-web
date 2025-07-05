@@ -7,31 +7,23 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background video */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
-        src="https://jbrl4daqezjrmmaw.public.blob.vercel-storage.com/oceans-dECcMOf0h302rpwZ14Ml1vvrw02UtG.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-      />
-
+    <section
+      id="hero"
+      className="relative bg-[url('https://t4.ftcdn.net/jpg/03/07/81/45/360_F_307814520_MK8g2ZCepEWfMFoQAfudmOR7nhP8ChwP.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center overflow-hidden pt-16"
+    >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Top-left branding box */}
-      <div className="absolute top-20 left-8 z-30 bg-black/50 backdrop-blur-sm px-5 py-3 rounded-md">
-        <h1 className="text-2xl font-semibold text-white">Dr. Serena Blake</h1>
+      <div className="absolute top-20 left-8 z-30 bg-black/60 backdrop-blur-sm px-5 py-3 rounded-md shadow-md">
+        <h1 className="text-2xl font-semibold text-white tracking-wide">Dr. Serena Blake</h1>
         <p className="text-sm text-blue-200">Clinical Psychologist, PsyD</p>
       </div>
 
       {/* Main centered content */}
       <div className="container mx-auto px-4 py-20 relative z-20">
         <div className="max-w-3xl mx-auto text-center space-y-8 text-white">
-          
-          <h1 className="text-2xl md:text-3xl text-gray-100 leading-relaxed font-sans">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed font-serif">
             Compassionate, evidence-based therapy to help you overcome anxiety, strengthen relationships, and heal from trauma.
           </h1>
 
