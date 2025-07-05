@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen flex items-center">
+    <section id="hero" className="relative bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen flex items-center pt-16">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -59,7 +59,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-96 h-96 rounded-full overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=500&fit=crop&crop=face"
+                  src="/lovable-uploads/eb05d7dd-4f0c-42c2-b02a-2b678bea7e6e.png"
                   alt="Dr. Serena Blake"
                   className="w-full h-full object-cover"
                 />
