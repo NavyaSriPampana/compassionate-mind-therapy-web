@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -22,7 +22,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="bg-slate-50 p-8 rounded-lg">
+            <div className="bg-white p-8 rounded-lg shadow-sm border border-slate-200">
               <h3 className="text-2xl font-medium text-slate-800 mb-6">Practice Details</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
